@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28394784'))
 API_HASH = environ.get('API_HASH', '9544a3ad7d8660acbae0dcf553c808e5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5877942822:AAHNf46r8fFlnlmzbjdjfihuSIYK4UMdOmk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5847064573:AAGC0OerM5XtAjKjQ1JLy0jAKrkDcM3osI4')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,9 +32,9 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL', -1001843351268)
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://klaus:klausbot@cluster0.w1hv2ov.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://test:test1@cluster1.nbibzo5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Test_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001876764500'))
@@ -68,5 +68,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'beingtek.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '1a823444efcc430b2598929d3de17bcfdd6d7b23')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b9936c4bb0e1902d055496919ce071291ec01626')
